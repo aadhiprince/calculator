@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>Calculator</h1>
+      <div>
+        <input type="text" id="inputbox" readonly />
+      </div>
+      <div class="input-container">
+        <button onclick="numShow(this)" class="number op">%</button>
+        <button onclick="numShow(this)" class="number op">/</button>
+        <button onclick="removeOne()" class="number">X</button>
+        <button onclick="reset()">AC</button>
+        <br />
+        <button class="number" onclick="numShow(this)">7</button>
+        <button class="number" onclick="numShow(this)">8</button>
+        <button class="number" onclick="numShow(this)">9</button>
+        <button onclick="numShow(this)" class="number op">*</button>
+        <br />
+        <button class="number" onclick="numShow(this)">4</button>
+        <button class="number" onclick="numShow(this)">5</button>
+        <button class="number" onclick="numShow(this)">6</button>
+        <button onclick="numShow(this)" class="number op">-</button>
+        <br />
+        <button class="number" onclick="numShow(this)">1</button>
+        <button class="number" onclick="numShow(this)">2</button>
+        <button class="number" onclick="numShow(this)">3</button>
+        <button onclick="numShow(this)" class="number op">+</button>
+        <br />
+        <button onclick="numShow(this)" class="number op">.</button>
+
+        <button class="number" onclick="numShow(this)">0</button>
+        <button class="number" onclick="numShow(this)">00</button>
+        <button onclick="calculate()" class="calculate" class="number">
+          =
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
