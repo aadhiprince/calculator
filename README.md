@@ -13,7 +13,7 @@ A basic calculator built with **HTML, CSS, and JavaScript** to perform arithmeti
 4️⃣ Press "C" to clear input.  
 
 ## Live Demo  
-🔗 [Live Link]() *(Replace `#` with your actual link)*  https://github.com/aad
+🔗 [Live Link](https://aadhiprince.github.io/calculator/)  https://github.com/aadhiprince
 
 ## Technologies Used  
 - HTML  
